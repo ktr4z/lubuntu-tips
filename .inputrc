@@ -1,0 +1,13 @@
+# Ctrl-Delete: delete next word
+"\e[3;5~": shell-kill-word
+
+# Ctrl-Backspace
+#"\C-H":"\C-W"
+#"\C-H": shell-backward-kill-word
+"\C-H": unix-word-rubout
+
+# Ctrl-Left Arrow
+"\e[1;5D": shell-backward-word
+
+# Ctrl-Right Arrow
+"\e[1;5C": shell-forward-word
